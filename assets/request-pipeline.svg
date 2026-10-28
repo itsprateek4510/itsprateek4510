@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the request</title>
+  <desc id="desc">An animated packet travels from the client through an API and service to a database. The guiding principles are to validate input, own the business rules, and protect the data.</desc>
+  <style>
+    .packet { animation: route 6s linear infinite; }
+    @keyframes route { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .packet { animation: none; stroke-dashoffset: 470; } }
+  </style>
+  <rect x="1" y="1" width="1198" height="154" rx="16" fill="#0a101b" stroke="#263547" stroke-width="2" />
+  <text x="28" y="30" fill="#8fa6bd" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2">FOLLOW THE REQUEST</text>
+  <text x="1172" y="30" fill="#64f4d0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end">small boundaries. clear responsibilities.</text>
+
+  <path d="M 130 74 H 1070" fill="none" stroke="#2d4458" stroke-width="2" />
+  <path class="packet" d="M 130 74 H 1070" fill="none" stroke="#64f4d0" stroke-width="3" stroke-linecap="round" stroke-dasharray="32 968" />
+  <g fill="#10202d" stroke="#355168">
+    <rect x="44" y="53" width="172" height="42" rx="8" />
+    <rect x="354" y="53" width="172" height="42" rx="8" />
+    <rect x="664" y="53" width="172" height="42" rx="8" />
+    <rect x="974" y="53" width="172" height="42" rx="8" />
+  </g>
+  <g fill="#e4edf9" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" text-anchor="middle">
+    <text x="130" y="80">CLIENT</text>
+    <text x="440" y="80">API</text>
+    <text x="750" y="80">SERVICE</text>
+    <text x="1060" y="80">DATABASE</text>
+  </g>
+  <g fill="#9eb3c9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle">
+    <text x="130" y="127">Ask a question.</text>
+    <text x="440" y="127">Validate the input.</text>
+    <text x="750" y="127">Own the business rules.</text>
+    <text x="1060" y="127">Protect the data.</text>
+  </g>
+</svg>

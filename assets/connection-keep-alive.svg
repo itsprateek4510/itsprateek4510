@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="174" viewBox="0 0 1200 174" role="img" aria-labelledby="title desc">
+  <title id="title">Connection: keep-alive</title>
+  <desc id="desc">Good conversations, like good connections, are worth keeping alive. A circuit connects two endpoints beside the message.</desc>
+  <defs>
+    <linearGradient id="connection" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64f4d0" />
+      <stop offset="1" stop-color="#79b8ff" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="172" rx="18" fill="#0a101b" stroke="#263547" stroke-width="2" />
+  <rect x="32" y="36" width="3" height="101" rx="1.5" fill="url(#connection)" />
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="54" y="68" fill="#eef4ff" font-size="27" font-weight="650">Good conversations, like good connections,</text>
+    <text x="54" y="104" fill="#a4b6cc" font-size="27">are worth keeping alive.</text>
+  </g>
+  <text x="55" y="137" fill="#64f4d0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14">Connection: keep-alive</text>
+
+  <g fill="none" stroke="url(#connection)" stroke-width="2">
+    <path d="M 846 89 H 899 L 925 62 H 994 L 1020 89 H 1122" />
+    <path d="M 899 89 L 925 116 H 994 L 1020 89" opacity="0.35" />
+    <circle cx="834" cy="89" r="12" />
+    <circle cx="1134" cy="89" r="12" />
+  </g>
+  <circle cx="834" cy="89" r="4" fill="#64f4d0" />
+  <circle cx="1134" cy="89" r="4" fill="#79b8ff" />
+  <text x="984" y="144" fill="#829bb4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" text-anchor="middle">LET'S BUILD SOMETHING.</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Prateek Kushwaha — Backend Control Room</title>
+  <desc id="desc">A dark, cyan-accented developer control room. Prateek builds the logic behind the interface with Java, Spring Boot, and Python. A terminal displays his backend engineering profile.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1a2b3e" stroke-width="1" opacity="0.4" />
+    </pattern>
+    <radialGradient id="glow" cx="85%" cy="25%" r="75%">
+      <stop offset="0" stop-color="#123d46" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#0a101b" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64f4d0" />
+      <stop offset="1" stop-color="#79b8ff" />
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="538" rx="24" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="540" fill="#0a101b" />
+    <rect width="1200" height="540" fill="url(#grid)" />
+    <rect width="1200" height="540" fill="url(#glow)" />
+    <path d="M 560 74 V 92 H 594 V 462 H 1160" fill="none" stroke="#24424e" stroke-width="1.5" />
+    <circle cx="560" cy="74" r="4" fill="#64f4d0" />
+    <circle cx="1160" cy="462" r="4" fill="#79b8ff" />
+  </g>
+  <rect x="1" y="1" width="1198" height="538" rx="24" fill="none" stroke="#263547" stroke-width="2" />
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">
+    <rect x="40" y="31" width="8" height="8" rx="2" fill="#64f4d0" />
+    <text x="60" y="41" fill="#c5d2e2" font-size="14" letter-spacing="2">PRATEEK / BACKEND CONTROL ROOM</text>
+    <text x="1158" y="41" fill="#8fa6bd" font-size="13" text-anchor="end" letter-spacing="1">JAVA · SPRING BOOT · PYTHON</text>
+  </g>
+  <path d="M 40 64 H 1160" stroke="#243346" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="46" y="127" fill="#96a9c0" font-size="14" letter-spacing="2.2">SOFTWARE DEVELOPER / DELHI, IN</text>
+    <text x="42" y="210" fill="#f1f6ff" font-size="76" font-weight="750" letter-spacing="-3">Prateek</text>
+    <text x="42" y="291" fill="#f1f6ff" font-size="76" font-weight="750" letter-spacing="-3">Kushwaha<tspan fill="#64f4d0">.</tspan></text>
+    <text x="46" y="344" fill="#c2cfe0" font-size="28">I build the logic</text>
+    <text x="46" y="381" fill="url(#accent)" font-size="28" font-weight="650">behind the interface.</text>
+  </g>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="1">
+    <rect x="46" y="414" width="92" height="31" rx="7" fill="#102a2b" stroke="#24514b" />
+    <text x="92" y="434" fill="#83e9d1" text-anchor="middle">APIs</text>
+    <rect x="149" y="414" width="92" height="31" rx="7" fill="#101f32" stroke="#2d435e" />
+    <text x="195" y="434" fill="#9ec8ff" text-anchor="middle">DATA</text>
+    <rect x="252" y="414" width="137" height="31" rx="7" fill="#252319" stroke="#4e4430" />
+    <text x="320" y="434" fill="#efca85" text-anchor="middle">PROTOCOLS</text>
+  </g>
+
+  <rect x="622" y="105" width="538" height="344" rx="13" fill="#060c16" stroke="#314757" />
+  <path d="M 635 105 H 1147 Q 1160 105 1160 118 V 147 H 622 V 118 Q 622 105 635 105" fill="#14202e" />
+  <circle cx="644" cy="126" r="5" fill="#ef7c8e" />
+  <circle cx="662" cy="126" r="5" fill="#e8bd71" />
+  <circle cx="680" cy="126" r="5" fill="#64d8b4" />
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">
+    <text x="890" y="131" fill="#9caec4" font-size="13" text-anchor="middle">developer@backend-lab: ~</text>
+    <text x="647" y="182" font-size="17"><tspan fill="#64f4d0">$ </tspan><tspan fill="#e3edf9">curl /v1/prateek</tspan></text>
+    <g font-size="16.5">
+      <text x="647" y="220" fill="#91a4bd">{</text>
+      <text x="667" y="246"><tspan fill="#79b8ff">"focus"</tspan><tspan fill="#91a4bd">: </tspan><tspan fill="#98e6bd">"backend"</tspan><tspan fill="#91a4bd">,</tspan></text>
+      <text x="667" y="272"><tspan fill="#79b8ff">"stack"</tspan><tspan fill="#91a4bd">: </tspan><tspan fill="#98e6bd">"Java / Spring Boot"</tspan><tspan fill="#91a4bd">,</tspan></text>
+      <text x="667" y="298"><tspan fill="#79b8ff">"curiosity"</tspan><tspan fill="#91a4bd">: </tspan><tspan fill="#98e6bd">"protocol internals"</tspan><tspan fill="#91a4bd">,</tspan></text>
+      <text x="667" y="324"><tspan fill="#79b8ff">"builds"</tspan><tspan fill="#91a4bd">: [</tspan></text>
+      <text x="687" y="350"><tspan fill="#98e6bd">"offline payments"</tspan><tspan fill="#91a4bd">, </tspan><tspan fill="#98e6bd">"Git"</tspan></text>
+      <text x="667" y="376" fill="#91a4bd">],</text>
+      <text x="667" y="402"><tspan fill="#79b8ff">"mode"</tspan><tspan fill="#91a4bd">: </tspan><tspan fill="#efca85">"learn. build. understand."</tspan></text>
+      <text x="647" y="428" fill="#91a4bd">}</text>
+    </g>
+  </g>
+
+  <path d="M 40 476 H 1160" stroke="#243346" />
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13">
+    <text x="46" y="511" fill="#8fa6bd" letter-spacing="1.5">REQUEST IN.</text>
+    <path d="M 173 506 H 233 M 228 501 L 233 506 L 228 511" fill="none" stroke="#64f4d0" />
+    <text x="252" y="511" fill="#d6e3ef" letter-spacing="1.5">ENGINEERING HAPPENS.</text>
+    <path d="M 464 506 H 524 M 519 501 L 524 506 L 519 511" fill="none" stroke="#79b8ff" />
+    <text x="543" y="511" fill="#8fa6bd" letter-spacing="1.5">RESPONSE OUT.</text>
+    <text x="1157" y="511" fill="#64f4d0" text-anchor="end">&lt; / &gt; curiosity-driven development</text>
+  </g>
+</svg>

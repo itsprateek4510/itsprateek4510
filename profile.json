@@ -1,0 +1,22 @@
+{
+  "username": "itsprateek4510",
+  "name": "Prateek Kushwaha",
+  "role": "Backend Developer",
+  "photo": "assets/myphoto.jpg",
+  "crop": [0.25, 0.075, 0.68, 0.545],
+  "info": [
+    ["Location", "Delhi, India"],
+    ["Stack", "Java, Spring Boot, Spring AI"],
+    ["Languages.Programming", "Java, Python, JavaScript"],
+    ["Languages.Real", "English, Hindi"],
+    ["Databases", "MySQL, MongoDB"],
+    ["Tools", "Docker, Git, Postman, CI/CD"],
+    ["Interests", "Protocols, databases, Git internals"]
+  ],
+  "projects": [
+    "UPI Offline Mesh / RSA + AES-GCM",
+    "Git from scratch / Python + HTTP"
+  ],
+  "email": "prateekkushwaha868@gmail.com",
+  "linkedin": "linkedin.com/in/itsprateek4510"
+}

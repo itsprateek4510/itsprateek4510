@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="773" viewBox="0 0 1120 773" role="img" aria-labelledby="title description">
+<title id="title">Prateek Kushwaha — neofetch</title>
+<desc id="description">ASCII head-and-shoulders portrait beside a developer profile. Stats cover owned, non-fork repositories and authored default-branch history. Lines of Code means cumulative additions and deletions, not current code size.</desc>
+<rect x="1" y="1" width="1118" height="771" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<path d="M15 1 H1105 Q1119 1 1119 15 V48 H1 V15 Q1 1 15 1" fill="#f6f8fa"/>
+<path d="M1 48 H1119" stroke="#d0d7de"/>
+<circle cx="25" cy="25" r="5" fill="#ff5f57"/>
+<circle cx="44" cy="25" r="5" fill="#febc2e"/>
+<circle cx="63" cy="25" r="5" fill="#28c840"/>
+<g font-family="Consolas, 'Fira Code', 'Liberation Mono', monospace" font-size="13" fill="#1f2328">
+<text x="560" y="30" text-anchor="middle" fill="#656d76">itsprateek4510 — ~/github</text>
+<text x="32" y="84"><tspan fill="#1a7f37">$ </tspan>neofetch --ascii ./myphoto.jpg</text>
+<path d="M526 110 V708" stroke="#d0d7de"/>
+<text id="portrait" x="32" y="126" xml:space="preserve" font-size="14" fill="#344d6c"><tspan x="32" y="126.0" textLength="462" lengthAdjust="spacingAndGlyphs">**+-+#+=*##############################******###*###***</tspan><tspan x="32" y="142.8" textLength="462" lengthAdjust="spacingAndGlyphs">******=+*##############%%%%%##########*+====+########**</tspan><tspan x="32" y="159.6" textLength="462" lengthAdjust="spacingAndGlyphs">***##################*++===+*#%########*++++*##########</tspan><tspan x="32" y="176.4" textLength="462" lengthAdjust="spacingAndGlyphs">***##############%#*=:..     .=*%######################</tspan><tspan x="32" y="193.2" textLength="462" lengthAdjust="spacingAndGlyphs">****#########%#%%**+=-:.      ..=###*##################</tspan><tspan x="32" y="210.0" textLength="462" lengthAdjust="spacingAndGlyphs">****######%%%%%%=:-.:-.   ----   *#**###############%%%</tspan><tspan x="32" y="226.8" textLength="462" lengthAdjust="spacingAndGlyphs">==+++**####%%%%%: :=:::..-+***-. -%#############%%%%%%#</tspan><tspan x="32" y="243.6" textLength="462" lengthAdjust="spacingAndGlyphs">------==+***####* -%+.::=+=--:==.-+##########%%%%%%##**</tspan><tspan x="32" y="260.4" textLength="462" lengthAdjust="spacingAndGlyphs">--====+=+********+-*=: .+*: .-=+--=#######%%%%%%##*####</tspan><tspan x="32" y="277.2" textLength="462" lengthAdjust="spacingAndGlyphs">++++*****####***+*=+++=+#@#*#%%#==*#####%%%%%######%%##</tspan><tspan x="32" y="294.0" textLength="462" lengthAdjust="spacingAndGlyphs">***###############%%%@@@%#*=*#*==###%%%%%######%%%##**+</tspan><tspan x="32" y="310.8" textLength="462" lengthAdjust="spacingAndGlyphs">**###%%%%%%%%%%%%#%%**#*=...::--*%%%%%####%%%%###***+++</tspan><tspan x="32" y="327.6" textLength="462" lengthAdjust="spacingAndGlyphs">####%%%@@@%%%%%%%%%%%#+-++=--=-=%%%%##%%%%%######*****#</tspan><tspan x="32" y="344.4" textLength="462" lengthAdjust="spacingAndGlyphs">##%%%%@@@@@@%%%%%%%%@+=-=+-:::=+-#%%%%#################</tspan><tspan x="32" y="361.2" textLength="462" lengthAdjust="spacingAndGlyphs">#%%%%%@@@@@@@@%%%%%@* #*-.  .-==..*#######%#%%%%%######</tspan><tspan x="32" y="378.0" textLength="462" lengthAdjust="spacingAndGlyphs">##%%%%@@@@@@%%%@@@%*-.+#*+-.:-:.   .:-=++**+****#**###*</tspan><tspan x="32" y="394.8" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%@@@@@%@@@%*-.... =+==.            .:-=----+**####</tspan><tspan x="32" y="411.6" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%@@@%%@%*:    ...  =#*==*-            ..-==*######</tspan><tspan x="32" y="428.4" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%@@%@@+.       ..   :+##=.               .+*%####*</tspan><tspan x="32" y="445.2" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%%%@+:                ::                  =#%####*</tspan><tspan x="32" y="462.0" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%%@-                                      .*%####*</tspan><tspan x="32" y="478.8" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%@#                                        =%#####</tspan><tspan x="32" y="495.6" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%%%%+                                        .%#####</tspan><tspan x="32" y="512.4" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%###:                                         +%####</tspan><tspan x="32" y="529.2" textLength="462" lengthAdjust="spacingAndGlyphs">%%%%###                                          .#####</tspan><tspan x="32" y="546.0" textLength="462" lengthAdjust="spacingAndGlyphs">######+                                           +####</tspan><tspan x="32" y="562.8" textLength="462" lengthAdjust="spacingAndGlyphs">######=                                           -%###</tspan><tspan x="32" y="579.6" textLength="462" lengthAdjust="spacingAndGlyphs">*###*#:                                            ####</tspan><tspan x="32" y="596.4" textLength="462" lengthAdjust="spacingAndGlyphs">:+*#*+                                             +###</tspan><tspan x="32" y="613.2" textLength="462" lengthAdjust="spacingAndGlyphs"> :+**-                                             -###</tspan></text>
+<text x="263" y="658" text-anchor="middle" fill="#0969da" font-weight="bold">Prateek Kushwaha</text>
+<text x="263" y="682" text-anchor="middle" fill="#656d76">I build the logic behind the interface.</text>
+<text x="552" y="126" fill="#0969da">itsprateek4510@github</text>
+<text x="552" y="149" fill="#656d76">──────────────────────────────────</text>
+<text x="552" y="172" xml:space="preserve"><tspan fill="#0969da">Name:</tspan><tspan fill="#656d76"> ................... </tspan><tspan>Prateek Kushwaha</tspan></text>
+<text x="552" y="195" xml:space="preserve"><tspan fill="#0969da">Kernel:</tspan><tspan fill="#656d76"> ................. </tspan><tspan>Backend Developer</tspan></text>
+<text x="552" y="218" xml:space="preserve"><tspan fill="#0969da">Location:</tspan><tspan fill="#656d76"> ............... </tspan><tspan>Delhi, India</tspan></text>
+<text x="552" y="241" xml:space="preserve"><tspan fill="#0969da">Stack:</tspan><tspan fill="#656d76"> .................. </tspan><tspan>Java, Spring Boot, Spring AI</tspan></text>
+<text x="552" y="264" xml:space="preserve"><tspan fill="#0969da">Languages.Programming:</tspan><tspan fill="#656d76"> .. </tspan><tspan>Java, Python, JavaScript</tspan></text>
+<text x="552" y="287" xml:space="preserve"><tspan fill="#0969da">Languages.Real:</tspan><tspan fill="#656d76"> ......... </tspan><tspan>English, Hindi</tspan></text>
+<text x="552" y="310" xml:space="preserve"><tspan fill="#0969da">Databases:</tspan><tspan fill="#656d76"> .............. </tspan><tspan>MySQL, MongoDB</tspan></text>
+<text x="552" y="333" xml:space="preserve"><tspan fill="#0969da">Tools:</tspan><tspan fill="#656d76"> .................. </tspan><tspan>Docker, Git, Postman, CI/CD</tspan></text>
+<text x="552" y="356" xml:space="preserve"><tspan fill="#0969da">Interests:</tspan><tspan fill="#656d76"> .............. </tspan><tspan>Protocols, databases, Git internals</tspan></text>
+<text x="552" y="402" fill="#0969da">— Projects</text>
+<text x="552" y="425" fill="#656d76">UPI Offline Mesh / RSA + AES-GCM</text>
+<text x="552" y="448" fill="#656d76">Git from scratch / Python + HTTP</text>
+<text x="552" y="494" fill="#0969da">— Contact</text>
+<text x="552" y="517" xml:space="preserve"><tspan fill="#0969da">Email:</tspan><tspan fill="#656d76"> .................. </tspan><tspan>prateekkushwaha868@gmail.com</tspan></text>
+<text x="552" y="540" xml:space="preserve"><tspan fill="#0969da">LinkedIn:</tspan><tspan fill="#656d76"> ............... </tspan><tspan>linkedin.com/in/itsprateek4510</tspan></text>
+<text x="552" y="586" fill="#0969da">— GitHub Stats</text>
+<text x="552" y="609" xml:space="preserve"><tspan fill="#0969da">Repos:</tspan><tspan fill="#656d76"> .................. </tspan><tspan>41</tspan></text>
+<text x="552" y="632" xml:space="preserve"><tspan fill="#0969da">Commits:</tspan><tspan fill="#656d76"> ................ </tspan><tspan>92</tspan></text>
+<text x="552" y="655" xml:space="preserve"><tspan fill="#0969da">Stars:</tspan><tspan fill="#656d76"> .................. </tspan><tspan>1</tspan></text>
+<text x="552" y="678" xml:space="preserve"><tspan fill="#0969da">Followers:</tspan><tspan fill="#656d76"> .............. </tspan><tspan>22</tspan></text>
+<text x="552" y="701" xml:space="preserve"><tspan fill="#0969da">Lines of Code:</tspan><tspan fill="#656d76"> .......... </tspan><tspan><tspan fill="#1a7f37">+1,857,734</tspan><tspan fill="#656d76"> / </tspan><tspan fill="#cf222e">-21,146</tspan></tspan></text>
+<rect x="151" y="706" width="28" height="12" fill="#d0d7de"/>
+<rect x="179" y="706" width="28" height="12" fill="#cf222e"/>
+<rect x="207" y="706" width="28" height="12" fill="#1a7f37"/>
+<rect x="235" y="706" width="28" height="12" fill="#d29922"/>
+<rect x="263" y="706" width="28" height="12" fill="#0969da"/>
+<rect x="291" y="706" width="28" height="12" fill="#bc8cff"/>
+<rect x="319" y="706" width="28" height="12" fill="#39c5cf"/>
+<rect x="347" y="706" width="28" height="12" fill="#1f2328"/>
+<text x="32" y="751" fill="#656d76" font-size="11">Updated 2026-11-03 UTC · owned non-fork repos · authored default-branch history</text>
+</g>
+</svg>

@@ -49,21 +49,37 @@ class AsciiTests(unittest.TestCase):
         self.assertEqual(len(lines), 30)
         self.assertTrue(all(len(line) == 55 for line in lines))
         self.assertTrue(set("".join(lines)) <= set(RAMP))
-        self.assertTrue(all(line.startswith(" ") and line.endswith("@") for line in lines))
+        self.assertTrue(all(line.startswith("@") and line.endswith(" ") for line in lines))
 
     def test_crop_selects_head_region(self):
         pixels = np.zeros((120, 110), dtype=np.uint8)
         pixels[:, 55:] = 255
         Image.fromarray(pixels).save(self.photo)
         lines = photo_to_ascii(self.photo, crop=(0.5, 0, 1, 1))
-        self.assertEqual(set("".join(lines)), {"@"})
+        self.assertEqual(set("".join(lines)), {" "})
 
     def test_aspect_correction_crops_instead_of_stretching(self):
         pixels = np.zeros((100, 200), dtype=np.uint8)
         pixels[:, :50] = 255
         pixels[:, 150:] = 255
         Image.fromarray(pixels).save(self.photo)
-        self.assertEqual(set("".join(photo_to_ascii(self.photo))), {" "})
+        self.assertEqual(set("".join(photo_to_ascii(self.photo))), {"@"})
+
+    def test_subject_is_drawn_with_characters_and_background_is_blank(self):
+        Image.new("L", (110, 120), 0).save(self.photo)
+        outline = [(0.25, 0.1), (0.75, 0.1), (0.75, 0.9), (0.25, 0.9)]
+        lines = photo_to_ascii(self.photo, subject_outline=outline)
+        self.assertEqual(lines[0], " " * 55)
+        self.assertTrue(all(line[:10] == " " * 10 and line[-10:] == " " * 10 for line in lines))
+        self.assertEqual(lines[15][20:35], "@" * 15)
+
+    def test_real_portrait_has_no_background_characters(self):
+        config = json.loads((ROOT / "profile.json").read_text())
+        lines = photo_to_ascii(ROOT / config["photo"], crop=config["crop"],
+                               subject_outline=config["subject_outline"])
+        self.assertEqual(lines[0], " " * 55)
+        self.assertTrue(all(line[:8] == " " * 8 and line[-8:] == " " * 8 for line in lines[:15]))
+        self.assertGreater(sum(character in "#%@" for character in lines[-1]), 30)
 
     def test_invalid_dimensions_and_crop(self):
         Image.new("L", (20, 20)).save(self.photo)
@@ -77,7 +93,7 @@ class AsciiTests(unittest.TestCase):
             photo_to_ascii(self.photo)
 
     def test_command_prints_exact_grid(self):
-        Image.new("L", (100, 100), 255).save(self.photo)
+        Image.new("L", (100, 100), 0).save(self.photo)
         result = subprocess.run(
             [sys.executable, "-m", "scripts.photo_to_ascii", str(self.photo)],
             cwd=ROOT, capture_output=True, text=True, check=True,
@@ -235,6 +251,8 @@ class RenderingTests(unittest.TestCase):
             lines = (output / "portrait.txt").read_text().splitlines()
             self.assertEqual(len(lines), 30)
             self.assertTrue(all(len(line) == 55 for line in lines))
+            self.assertEqual(lines[0], " " * 55)
+            self.assertGreater(sum(character in "#%@" for character in lines[-1]), 30)
             for theme in ("dark", "light"):
                 root = ET.parse(output / f"{theme}.svg").getroot()
                 self.assertIn("1,234", "".join(root.itertext()))

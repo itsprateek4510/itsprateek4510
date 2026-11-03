@@ -198,7 +198,8 @@ def main(argv=None):
     today = datetime.now(timezone.utc).date()
     birthday = os.environ.get("PROFILE_BIRTH_DATE")
     uptime = calculate_uptime(birthday, today) if birthday else None
-    portrait = photo_to_ascii(ROOT / config["photo"], crop=config["crop"])
+    portrait = photo_to_ascii(ROOT / config["photo"], crop=config["crop"],
+                              subject_outline=config.get("subject_outline"))
     stats = None if args.preview else fetch_stats(config["username"], token)
     # Finish API requests and rendering before touching the checked-in assets.
     images = {theme: render_svg(config, portrait, stats, theme, today, uptime) for theme in THEMES}

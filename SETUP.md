@@ -46,7 +46,7 @@ python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 
 # Print the head-and-shoulders ASCII portrait directly.
-python -m scripts.photo_to_ascii assets/myphoto.jpg --crop 0.25 0.075 0.68 0.545
+python -m scripts.photo_to_ascii assets/myphoto.jpg --profile profile.json
 
 # Read a token without putting its value into shell history (bash/zsh).
 read -rs GH_TOKEN
@@ -71,7 +71,7 @@ Preview stats explicitly say **not synced**; no sample numbers are presented as 
 
 ## Customize
 
-Edit **`profile.json`** for profile text. Crop coordinates are `[left, top, right, bottom]`, each a fraction of the EXIF-oriented image; the current crop isolates your head and shoulders. The converter uses the exact ramp ` .:-=+*#%@`, autocontrast plus a 1.6× contrast boost, and a 0.5 character width/height ratio. SVG text uses matching geometry, preserved spaces, and a local Consolas / Fira Code / Liberation Mono fallback stack, with no remote fonts or embedded photo.
+Edit **`profile.json`** for profile text. Crop coordinates are `[left, top, right, bottom]`, each a fraction of the EXIF-oriented image; the current crop isolates your head and shoulders. `subject_outline` is a hand-traced polygon of `[x, y]` image fractions that removes the background without modifying your photo or using an external service. Update that outline when replacing the photo. The converter uses the exact ramp ` .:-=+*#%@`, autocontrast plus a 1.6× contrast boost, and a 0.5 character width/height ratio. Dark subject details become dense characters; the masked background becomes spaces. SVG text uses matching geometry, preserved spaces, and a local Consolas / Fira Code / Liberation Mono fallback stack, with no remote fonts or embedded photo.
 
 Birthday-based **Uptime** is optional. Set the Actions secret **`PROFILE_BIRTH_DATE`** to `DD-MM-YYYY`, or export that variable locally. Without it, the row is omitted. Years/months/days are computed using UTC dates, with month-end clamping for short months and leap birthdays. The birthday itself isn't written to the card, but the displayed age still reveals approximately when you were born.
 

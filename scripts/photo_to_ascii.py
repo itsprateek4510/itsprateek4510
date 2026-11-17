@@ -45,6 +45,7 @@ def photo_to_ascii(path, columns=55, rows=30, crop=None, subject_outline=None):
 
 
 def main():
+    """Print the ASCII portrait, taking crop defaults from --profile when given."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("photo", type=Path)
     parser.add_argument("--columns", type=int, default=55)

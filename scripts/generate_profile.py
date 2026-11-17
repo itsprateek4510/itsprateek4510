@@ -44,6 +44,7 @@ THEMES = {
 
 
 def github_request(query, variables, token):
+    """POST a GraphQL query and return its data; raises RuntimeError on failure."""
     request = Request("https://api.github.com/graphql",
                       data=json.dumps({"query": query, "variables": variables}).encode(),
                       headers={"Authorization": f"Bearer {token}",
@@ -63,6 +64,7 @@ def github_request(query, variables, token):
 
 
 def fetch_stats(username, token):
+    """Collect repo, star, follower, and authored line-count totals."""
     user = github_request(USER_QUERY, {"login": username}, token)["user"]
     if user is None:
         raise RuntimeError(f"GitHub user {username!r} not found.")
@@ -112,6 +114,7 @@ def calculate_uptime(birthday, today):
 
 
 def render_svg(config, portrait, stats, theme, today, uptime=None):
+    """Return one complete SVG string; stats=None renders 'not synced' preview text."""
     colors = THEMES[theme]
     rows = [("header", f'{config["username"]}@github'), ("muted", "─" * 34),
             ("Name", config["name"]), ("Kernel", config["role"])]
@@ -187,6 +190,7 @@ def render_svg(config, portrait, stats, theme, today, uptime=None):
 
 
 def main(argv=None):
+    """Write portrait.txt and both theme SVGs to the output directory."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "assets")
     parser.add_argument("--preview", action="store_true", help="Offline layout; stats say 'not synced'.")
